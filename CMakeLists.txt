@@ -18,7 +18,7 @@ set(BFCPP_LIBRARY bfcpp)
 add_subdirectory(dep)
 
 include_directories(
-    src
+    include
     ${EIGEN3_INCLUDE_DIR}
     ${CATCH2_INCLUDE_DIR}
 )
